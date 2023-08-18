@@ -1,0 +1,37 @@
+Center About me text under the SVGs-----check
+make headshot smaller more into a facebook avatar----check
+decrease gap between cards----check
+bottom padding on svg imgs in about me ----check
+get rid of scroll bar in about me ----check
+ask Drew about icon libraries for stuff for facebook, github 
+make treeHouse data into a character
+Order data like Javascript first
+add comma into Points
+change resume to education possibly, and or add education like computer science classes----check
+
+Grid of polytopia project 1,2,3 with thumbnails (3 column grid) and go into detail in a modal or separate page when one is clicked
+Save img as a jpg ----check
+
+
+make portfolio into its own full page link or modal 
+hierachy for propjects:
+ title 
+ product preview image,(teaser)
+ what it does code previews
+ buttons for gifs
+ then challenge etc
+
+
+
+
+ NEW NOTES
+
+ make email in the card fit into the box
+ fix navbar to not have spencer renfro/front end dev in mobile
+ fix padding right on navbar
+ add bar or pie graph for stats 
+ remove name from card or navbar not have both
+ change card to only show on about me
+ fix the padding on the top of my different project titles
+ add login form project instead of gif
+ add light/dark theme to always be dark

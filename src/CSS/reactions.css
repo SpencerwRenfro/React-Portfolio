@@ -1,0 +1,86 @@
+.post-interactions {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: .25rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.reaction-button {
+    width: 100%;
+    padding: .5rem .33rem;
+    border-radius: .5rem;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background .3s ease;
+    border: 2px solid white;
+}.reaction-button:hover{
+    background-color: transparent;
+}.reaction-button:first-child:hover> span{
+    top: -62px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  
+
+  .facebook-span {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    background-color: #464849;
+    border-radius: 5rem;
+    display: flex;
+    padding: .33rem;
+    gap: .25rem;
+    transition: top .3s .5s ease, opacity .3s .5s ease;
+  } .facebook-img {
+    width: 50px;
+    cursor: pointer;
+    transition: transform .3s ease;
+    background-color: transparent;
+    
+  }
+  
+  
+  .img-transform:hover{
+    transform: scale(1.3) translateY(-1rem);
+    background-color: transparent;
+  } 
+
+  .transparent{
+    background-color: transparent;
+    border: none;
+  }
+
+  .like{
+    border: solid 3px blue;
+  }
+
+  .wow{
+    border: solid 3px yellow;
+  }
+
+  .angry{
+    border: solid 3px red;
+  }
+
+  .heart{
+    border: solid 3px pink;
+  }
+  .laugh{
+    border: solid 3px yellow;
+  }
+
+  .sad{
+    border: solid 3px blue;
+  }
+  .border-bottom {
+    border-bottom: solid 3px white;
+    padding-bottom: 40px;
+  }
+  

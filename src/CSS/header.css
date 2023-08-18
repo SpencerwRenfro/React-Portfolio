@@ -1,0 +1,29 @@
+.post-header {
+    display: flex;
+    align-items: center;
+    /* background-color: #3A3B3C; */
+    /* background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity)); */
+    background-color: 'bg-base-300';
+    color: white;
+    
+}
+
+
+  .user-profile-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: .5rem;
+  }
+
+img.icon {
+    filter: invert(1);
+    max-width: 15px;
+
+  }
+
+  img.icon:first-of-type{
+    margin-left: auto;
+    margin-right: 1rem;
+  }

@@ -1,0 +1,25 @@
+.barMediaQuery {
+    
+}
+
+@media only screen and (min-width: 700px) {
+
+}
+
+.hideGraph {
+    display: none;
+    border: solid 3px red;
+    width: 300px;
+
+}@media only screen and (min-width: 700px) {
+
+}
+
+
+
+.button {
+    width: 100%;
+    padding: .5rem .33rem;
+    border-radius: .5rem;
+    border: 2px solid white;
+}

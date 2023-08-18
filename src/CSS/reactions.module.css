@@ -1,0 +1,47 @@
+.border {
+    border: solid 3px green;
+    background-color: transparent;
+}.border:first-child:hover> span{
+    top: -62px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+
+/* .reaction-button:hover{
+    background-color: transparent;
+}.reaction-button:first-child:hover> span{
+    top: -62px;
+    opacity: 1;
+    pointer-events: auto;
+  } */
+
+  .button {
+    width: 100%;
+    padding: .5rem .33rem;
+    border-radius: .5rem;
+    border: none;
+    /* background-color: #4a4e52; */
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background .3s ease;
+    border: 2px solid white;
+}.button:first-child> span{
+    top: -62px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+
+.plainButton{
+    width: 100%;
+    padding: .5rem .33rem;
+    border-radius: .5rem;
+    border: none;
+    /* background-color: #4a4e52; */
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background .3s ease;
+    border: 2px solid white;
+}
+

@@ -1,0 +1,18 @@
+.facebook-post {
+    background-color: white;
+    color:  #FFFFFF;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 2.5rem;
+    padding: 1.5rem;
+    border: 10px solid #088AE9;
+    box-shadow: 0 12px 12px rgba(black, 0.15);
+}
+
+.post {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    margin: 1rem auto;
+    border-radius: 2rem;
+  }

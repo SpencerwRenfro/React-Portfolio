@@ -1,0 +1,165 @@
+
+.spinner{
+  height: 60px;
+  width: 60px;
+}
+
+
+.bluebox {
+  background-color: blue;
+}
+
+.redbox {
+  background-color: red;
+}
+
+.dark {
+  background-color: #2A303C;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.profile-image {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  overflow: visible;
+} 
+
+
+
+.background-image {
+  /* color: white; */
+  /* border-radius: solid white 10px; */
+}
+
+.buttonMax{
+  max-width: 200px;
+}
+
+
+.main-nav .active{
+  border-bottom-width: 2px;     --tw-border-opacity: 1;
+  border-color: rgb(99 102 241 / var(--tw-border-opacity)); 
+  padding-top: 0.5rem/* 8px */;
+  padding-bottom: 0.5rem/* 8px */;
+
+}
+
+.link:hover{
+  border-bottom-width: 2px;     --tw-border-opacity: 1;
+}
+
+
+.icn-logo {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+
+
+.icon-images {
+
+  height: 90px;
+  display: block;
+  text-align: center;
+ display: inline-block;
+ margin:10px;
+
+} 
+
+
+.image-box {
+  /* padding:10px; */
+  display: inline-block;
+}
+
+.image-title{
+  width: 140px;
+  height: 125px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+
+.border-bottom{
+  border-bottom: 5px solid white;
+}
+
+
+.crop {
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+ }
+ .crop img {
+  height: auto;
+  width: 400px;
+  background-size: cover;
+ }
+
+
+ 
+@media screen and (max-width: 600px) {
+.App{
+  margin:0;
+  padding:0;
+}
+.profile-card{
+  margin:0;
+  padding:0;
+}
+.main-nav{
+  margin:0;
+  padding:0;
+}
+body {
+  margin:0;
+  padding:0;
+}
+
+}
+
+.main-navbar {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}:where(.main-navbar > *) {
+  display: inline-flex;
+  align-items: center;
+}
+
+.display-none{
+ 
+  transform: scaleX(.5);
+  padding: -1;
+  margin: -1; 
+  display: none;
+}
+
+.white{
+  color: #F7F3FE;
+}
+
+.dataObjectClass{
+  color: red;
+}
+
+
+/* .faceBookBox {
+  width: 500px;
+  height: 600px;
+} */
