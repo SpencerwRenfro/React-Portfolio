@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.ad78f013.css",
+    "main.js": "/React-Portfolio/static/js/main.3599753d.js",
+    "static/js/787.fa3c4679.chunk.js": "/React-Portfolio/static/js/787.fa3c4679.chunk.js",
+    "static/media/Emoji_Loved.gif": "/React-Portfolio/static/media/Emoji_Loved.9a0a3987a8a7b0ce900d.gif",
+    "static/media/Emoji_Wow.gif": "/React-Portfolio/static/media/Emoji_Wow.caed3e3ed0d859a1b9ed.gif",
+    "static/media/Emoji_Angry.gif": "/React-Portfolio/static/media/Emoji_Angry.ddcbc3169312d8352b18.gif",
+    "static/media/Emoji_Sad.gif": "/React-Portfolio/static/media/Emoji_Sad.6a43e975fc6725d31439.gif",
+    "static/media/Emoji_haha.gif": "/React-Portfolio/static/media/Emoji_haha.232cc715805905099d29.gif",
+    "static/media/Emoji_Like.gif": "/React-Portfolio/static/media/Emoji_Like.50ea665d4cea0eca291f.gif",
+    "static/media/facebookAvatar.jpg": "/React-Portfolio/static/media/facebookAvatar.d2ca73fb365dc12b463b.jpg",
+    "static/media/angry.png": "/React-Portfolio/static/media/angry.03db6800959234642842.png",
+    "index.html": "/React-Portfolio/index.html",
+    "static/media/fbDots.svg": "/React-Portfolio/static/media/fbDots.453cf49a0c76933e77c7c228978c86c1.svg",
+    "static/media/fbClose.svg": "/React-Portfolio/static/media/fbClose.6157b2f9cef61f43cfb9afb27dae1ef8.svg",
+    "main.ad78f013.css.map": "/React-Portfolio/static/css/main.ad78f013.css.map",
+    "main.3599753d.js.map": "/React-Portfolio/static/js/main.3599753d.js.map",
+    "787.fa3c4679.chunk.js.map": "/React-Portfolio/static/js/787.fa3c4679.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad78f013.css",
+    "static/js/main.3599753d.js"
+  ]
+}
