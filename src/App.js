@@ -10,7 +10,7 @@ import React from "react";
 // import Home from "./components/Home";
 import Resume from "./components/Routes/Resume";
 
-// subRoutes
+// -subRoutes
 import Polytopia from "./components/ProjectsFolder/Polytopia";
 import ProjectTwo from "./components/ProjectsFolder/ProjectTwo";
 import Project3 from "./components/ProjectsFolder/Project3";
