@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.ad78f013.css",
-    "main.js": "/React-Portfolio/static/js/main.78c5841b.js",
+    "main.css": "/React-Portfolio/static/css/main.f7e3ff07.css",
+    "main.js": "/React-Portfolio/static/js/main.4837fb85.js",
     "static/media/Emoji_Loved.gif": "/React-Portfolio/static/media/Emoji_Loved.9a0a3987a8a7b0ce900d.gif",
     "static/media/Emoji_Wow.gif": "/React-Portfolio/static/media/Emoji_Wow.caed3e3ed0d859a1b9ed.gif",
     "static/media/Emoji_Angry.gif": "/React-Portfolio/static/media/Emoji_Angry.ddcbc3169312d8352b18.gif",
@@ -13,11 +13,11 @@
     "index.html": "/React-Portfolio/index.html",
     "static/media/fbDots.svg": "/React-Portfolio/static/media/fbDots.453cf49a0c76933e77c7c228978c86c1.svg",
     "static/media/fbClose.svg": "/React-Portfolio/static/media/fbClose.6157b2f9cef61f43cfb9afb27dae1ef8.svg",
-    "main.ad78f013.css.map": "/React-Portfolio/static/css/main.ad78f013.css.map",
-    "main.78c5841b.js.map": "/React-Portfolio/static/js/main.78c5841b.js.map"
+    "main.f7e3ff07.css.map": "/React-Portfolio/static/css/main.f7e3ff07.css.map",
+    "main.4837fb85.js.map": "/React-Portfolio/static/js/main.4837fb85.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad78f013.css",
-    "static/js/main.78c5841b.js"
+    "static/css/main.f7e3ff07.css",
+    "static/js/main.4837fb85.js"
   ]
 }
