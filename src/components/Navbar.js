@@ -124,27 +124,3 @@ export default function Navbar(props) {
   );
 }
 
-
-{/* <div
-  style={{backgroundColor: '#641AE6'}}
-  className="px-20 flex justify-end main-nav mb-20 w-full fixed  z-10   top-0 bg-gradient-to-r  
-                 brightness-60 shadow-2xl    dark:text-zinc-200 p-2 text-3xl "> */}
-
-{/* {
-        windowSize > 700 ? 
-  
-        <div className=" normal-case text-xl flex flex-col grow justify-end ">
-          <p>Spencer Renfro</p>
-          <small>Front-End Developer</small> 
-        </div>
-    : ''
-      }
-
-
-       <div className="flex md:gap-8">
-        <div><NavLink className="text-center lg:px-8 lg:py-1 rounded-lg" to="/" end>About</NavLink></div>
-        <div><NavLink className="text-center lg:px-8 lg:py-1 rounded-lg" to="resume" end>Education</NavLink></div>
-        <div><NavLink className="text-center lg:px-8 lg:py-1  rounded-lg" to="projectsPage" end>Projects Page</NavLink></div>
-        <div className="w-12">{windowSize < 700 ? <div className="">{props.lightDarkSwitch}  </div> : ''}</div>
-        
-       </div> */}
