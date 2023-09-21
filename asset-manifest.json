@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.0e155ebd.css",
-    "main.js": "/React-Portfolio/static/js/main.4837fb85.js",
-    "static/media/Emoji_Loved.gif": "/React-Portfolio/static/media/Emoji_Loved.9a0a3987a8a7b0ce900d.gif",
-    "static/media/Emoji_Wow.gif": "/React-Portfolio/static/media/Emoji_Wow.caed3e3ed0d859a1b9ed.gif",
-    "static/media/Emoji_Angry.gif": "/React-Portfolio/static/media/Emoji_Angry.ddcbc3169312d8352b18.gif",
-    "static/media/Emoji_Sad.gif": "/React-Portfolio/static/media/Emoji_Sad.6a43e975fc6725d31439.gif",
-    "static/media/Emoji_haha.gif": "/React-Portfolio/static/media/Emoji_haha.232cc715805905099d29.gif",
-    "static/media/Emoji_Like.gif": "/React-Portfolio/static/media/Emoji_Like.50ea665d4cea0eca291f.gif",
-    "static/media/facebookAvatar.jpg": "/React-Portfolio/static/media/facebookAvatar.d2ca73fb365dc12b463b.jpg",
-    "static/media/angry.png": "/React-Portfolio/static/media/angry.03db6800959234642842.png",
-    "index.html": "/React-Portfolio/index.html",
-    "static/media/fbDots.svg": "/React-Portfolio/static/media/fbDots.453cf49a0c76933e77c7c228978c86c1.svg",
-    "static/media/fbClose.svg": "/React-Portfolio/static/media/fbClose.6157b2f9cef61f43cfb9afb27dae1ef8.svg",
-    "main.0e155ebd.css.map": "/React-Portfolio/static/css/main.0e155ebd.css.map",
-    "main.4837fb85.js.map": "/React-Portfolio/static/js/main.4837fb85.js.map"
+    "main.css": "/static/css/main.0e155ebd.css",
+    "main.js": "/static/js/main.cc0d28e6.js",
+    "static/media/Emoji_Loved.gif": "/static/media/Emoji_Loved.9a0a3987a8a7b0ce900d.gif",
+    "static/media/Emoji_Wow.gif": "/static/media/Emoji_Wow.caed3e3ed0d859a1b9ed.gif",
+    "static/media/Emoji_Angry.gif": "/static/media/Emoji_Angry.ddcbc3169312d8352b18.gif",
+    "static/media/Emoji_Sad.gif": "/static/media/Emoji_Sad.6a43e975fc6725d31439.gif",
+    "static/media/Emoji_haha.gif": "/static/media/Emoji_haha.232cc715805905099d29.gif",
+    "static/media/Emoji_Like.gif": "/static/media/Emoji_Like.50ea665d4cea0eca291f.gif",
+    "static/media/facebookAvatar.jpg": "/static/media/facebookAvatar.d2ca73fb365dc12b463b.jpg",
+    "static/media/angry.png": "/static/media/angry.03db6800959234642842.png",
+    "index.html": "/index.html",
+    "static/media/fbDots.svg": "/static/media/fbDots.453cf49a0c76933e77c7c228978c86c1.svg",
+    "static/media/fbClose.svg": "/static/media/fbClose.6157b2f9cef61f43cfb9afb27dae1ef8.svg",
+    "main.0e155ebd.css.map": "/static/css/main.0e155ebd.css.map",
+    "main.cc0d28e6.js.map": "/static/js/main.cc0d28e6.js.map"
   },
   "entrypoints": [
     "static/css/main.0e155ebd.css",
-    "static/js/main.4837fb85.js"
+    "static/js/main.cc0d28e6.js"
   ]
 }
