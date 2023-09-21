@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0e155ebd.css",
-    "main.js": "/static/js/main.cc0d28e6.js",
+    "main.js": "/static/js/main.af5f3f6b.js",
     "static/media/Emoji_Loved.gif": "/static/media/Emoji_Loved.9a0a3987a8a7b0ce900d.gif",
     "static/media/Emoji_Wow.gif": "/static/media/Emoji_Wow.caed3e3ed0d859a1b9ed.gif",
     "static/media/Emoji_Angry.gif": "/static/media/Emoji_Angry.ddcbc3169312d8352b18.gif",
@@ -14,10 +14,10 @@
     "static/media/fbDots.svg": "/static/media/fbDots.453cf49a0c76933e77c7c228978c86c1.svg",
     "static/media/fbClose.svg": "/static/media/fbClose.6157b2f9cef61f43cfb9afb27dae1ef8.svg",
     "main.0e155ebd.css.map": "/static/css/main.0e155ebd.css.map",
-    "main.cc0d28e6.js.map": "/static/js/main.cc0d28e6.js.map"
+    "main.af5f3f6b.js.map": "/static/js/main.af5f3f6b.js.map"
   },
   "entrypoints": [
     "static/css/main.0e155ebd.css",
-    "static/js/main.cc0d28e6.js"
+    "static/js/main.af5f3f6b.js"
   ]
 }
