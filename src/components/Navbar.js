@@ -50,17 +50,17 @@ export default function Navbar(props) {
                   <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                     {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                     <div
-                      className="inline-flex items-center border-b-2 hover:rounded-lg border-transparent  border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
+                      className="inline-flex items-center border-b-2 hover:rounded-lg border-transparent  border-indigo-500 px-1 pt-1 text-sm font-medium "
                     >
                       <NavLink className="link no-underline text-center px-8 py-1 rounded-lg" to="/" end>About</NavLink>
                     </div>
                     <div
-                      className="inline-flex items-center border-b-2 hover:rounded-lg border-transparent  border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
+                      className="inline-flex items-center border-b-2 hover:rounded-lg border-transparent  border-indigo-500 px-1 pt-1 text-sm font-medium "
                     >
                       <NavLink className="link no-underline text-center px-8 py-1 rounded-lg" to="resume" >Education</NavLink>
                     </div>
                     <div
-                      className="inline-flex items-center border-b-2 hover:rounded-lg border-transparent  border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
+                      className="inline-flex items-center border-b-2 hover:rounded-lg border-transparent  border-indigo-500 px-1 pt-1 text-sm font-medium"
 
                     >
                       <NavLink className="link no-underline text-center px-8 py-1 rounded-lg" to="/projectsPage" >Projects</NavLink>
