@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 export default function ProjectTwo(props) {
     const fbGif2 = `${process.env.PUBLIC_URL}/Gifs/facebook-reactions-recording2.gif`;
     let icon = `${process.env.PUBLIC_URL}/images/svgs/fbicon.svg`
-    let fbIcon = `${process.env.PUBLIC_URL}/images/svgs/fbIcon.svg`
+    let fbIcon = `${process.env.PUBLIC_URL}/images/Facebook_Logo.png`;
 
 
     const [windowSize, setWindowSize] = useState([
@@ -31,13 +31,13 @@ export default function ProjectTwo(props) {
             <div className="pt-5 pb-5">
                 <div>
                     <div className="grid grid-cols-12 gap-4">
-                        <div className="col-span-12 
+                        <div className="col-span-12
                                 lg:col-start-1 lg:col-end-7
-                                xl:col-start-2 xl:col-end-8">
-                            <img src={fbIcon} alt="Shoes" />
+                                xl:col-start-4 xl:col-end-8">
+                            <img className="w-96" src={fbIcon} alt="Shoes" />
                         </div>
 
-                        <div className="col-span-12 
+                        <div className="col-span-12
                                 lg:col-start-8 lg:col-end-12
                                 xl:col-start-9 xl:col-end-12 ">
                             <h1 className="text-6xl justify-center">Facebook</h1>
@@ -51,7 +51,7 @@ export default function ProjectTwo(props) {
                                 size of the hover state, making it more noticeable to the user.
                                 </p>
                                 <p className="text-xl pt-10">
-                                I also added React useState into this project to render which emoji the user clicks. This works by passing a function 
+                                I also added React useState into this project to render which emoji the user clicks. This works by passing a function
                                 to the onClick for the like button, and having that function call the setState and set it equal to the event.target.id
                                 </p>
                                 <p className="text-xl pt-10">
