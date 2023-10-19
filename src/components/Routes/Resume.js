@@ -141,7 +141,7 @@ export default function Resume(props) {
                         <div className={props.windowSize > 900 ? "" : "hide"}>
                             {
                                 chartSchema &&
-                                // props.windowSize > 700 ? 
+                                // props.windowSize > 700 ?
                                 <div className="container">
                                     <Bar data={chartSchema} />
                                     {/* <Pie data={chartSchema} /> */}
@@ -160,8 +160,8 @@ export default function Resume(props) {
 
                             <div className="collapse">
                                 <input type="checkbox" />
-                                <div className="collapse-title text-xl font-medium flex justify-center border-bottom">          
-                                    <i class="fa-solid fa-bars fa-2xl"></i>
+                                <div className="collapse-title text-xl font-medium flex justify-center border-bottom">
+                                    <i className="fa-solid fa-bars fa-2xl"></i>
                                 </div>
 
                                 <div className="collapse-content">

@@ -6,7 +6,7 @@ export default function AboutMe() {
   let cImage = `${process.env.PUBLIC_URL}/images/Cimg.png`;
   let gitHub = `${process.env.PUBLIC_URL}/images/github.png`;
   let restAPI = `${process.env.PUBLIC_URL}/images/RestApi.png`;
-  
+
 
   const [windowSize, setWindowSize] = useState([
     window.innerWidth,
@@ -27,16 +27,16 @@ export default function AboutMe() {
 
   return (
     <div className="">
-{/* mx-auto px-4   mt-10 */}
-    
+
+
     <div className="grid grid-cols-12 gap-4">
-      <div className="col-span-12 
+      <div className="col-span-12
       lg:col-start-1 lg:col-end-5
        xl:col-start-2 xl:col-end-5">
         <Card />
       </div>
 
-      <div className="col-span-12 
+      <div className="col-span-12
       lg:col-start-5 lg:col-end-12
       xl:col-start-6 xl:col-end-12
       ">
@@ -47,24 +47,19 @@ export default function AboutMe() {
               About Me
             </h1>
             <p className="text-xl">
-              {/* I am a former U.S. Air Force aerospace ground equipment mechanic,
-              and currently a junior front-end developer. I am from Boulder,
-              Colorado. I enjoy crafting awesome websites and web apps with
-              JavaScript and front-end frameworks. I’m currently looking for
-              entry-level employment to start my career and find senior team
-              mentorship. */}
-              As a junior front-end developer, I am proficient in React, HTML, CSS, 
+
+              As a junior front-end developer, I am proficient in React, HTML, CSS,
               and JavaScript. With my skills and knowledge, I am able to create dynamic
               and responsive user interfaces that make a lasting impression. I am very familiar
               in the principles of React and can leverage them to create reusable components,
               effectively architect applications, and deliver performant solutions.
             </p>
-            
-            <p className="text-xl my-2"> 
-            I have strong problem-solving abilities, detail-orientation, and great communication skills. 
-            I am passionate about crafting meaningful user experiences and am always eager to stay 
-            up-to-date with the latest trends and techniques in front-end development. In summary, 
-            I am a motivated and capable junior front-end developer who brings a strong foundation in 
+
+            <p className="text-xl my-2">
+            I have strong problem-solving abilities, detail-orientation, and great communication skills.
+            I am passionate about crafting meaningful user experiences and am always eager to stay
+            up-to-date with the latest trends and techniques in front-end development. In summary,
+            I am a motivated and capable junior front-end developer who brings a strong foundation in
             React, HTML, CSS, and JavaScript to any team.
             </p>
           </div>
@@ -113,11 +108,11 @@ export default function AboutMe() {
               </p>
             </div>
           </div>
-        
+
           <h2 className=" text-xl text-center pb-3">
             Favorite Technologies
           </h2>
-        
+
           <div className="grid grid-cols-12 justify-items-center gap-4 flex-wrap">
             <div className="col-span-6 md:col-span-3 pb-5">
               <img

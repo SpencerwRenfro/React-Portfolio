@@ -69,7 +69,7 @@ export default function Navbar(props) {
                   </div>
                 </div>
 
-                <div className="-mr-2 flex items-center sm:hidden">
+                <div className="mr-2 flex items-center sm:hidden">
                   {/* Mobile menu button */}
                   <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500">
                     <span className="absolute -inset-0.5" />

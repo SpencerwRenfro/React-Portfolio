@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect  } from 'react';
-
-
+import { Link } from 'react-router-dom';
+import PDF from '../../spencer-renfro-resume-2023.pdf'
 
 
 
@@ -11,21 +11,27 @@ export default function Card() {
         window.innerWidth,
         window.innerHeight,
       ]);
-    
+
       useEffect(() => {
         const handleWindowResize = () => {
           setWindowSize([window.innerWidth, window.innerHeight]);
         };
-    
+
         window.addEventListener('resize', handleWindowResize);
-    
+
         return () => {
           window.removeEventListener('resize', handleWindowResize);
         };
       }, []);
 
+      const openPdfInNewTab = () => {
+        const pdfUrl = 'http://www.google.com';
+        window.open(pdfUrl, '_blank');
+      };
+
 
     let profileImage = `${process.env.PUBLIC_URL}/images/me.png`;
+
   /**
      // fetch request
     const onButtonClick = () => {
@@ -41,7 +47,7 @@ export default function Card() {
             alink.click();
           });
         });
-    }  
+    }
     */
  // end
 
@@ -61,7 +67,7 @@ export default function Card() {
 //       alink.click();
 //     });
 //   });
-// }  
+// }
 
 
     return (
@@ -73,27 +79,20 @@ export default function Card() {
                         <img className="profile-image" src={profileImage} alt="Spencer Renfro" />
                     </figure>
                     <h2 className={`${windowSize[0] >= 560 ? 'display-none' : ''} self-center p-1.5 rounded-lg `}>Spencer W Renfro</h2>
-                   
+
                     <h3 className={`${windowSize[0] >= 560 ? 'display-none' : ''}  self-center p-1.5 rounded-lg`}>Front End Developer</h3>
-                    
+
 
 
                     <div className="grid grid-cols-12 gap-2  pt-5 pb-5">
-                      {/* card-actions */}
-                        {/* TODO: make the button full width on mobile, but auto width on md devices or larger */}
+
                         <a className="col-span-12 btn btn-primary" href="https://github.com/SpencerwRenfro?tab=projects" target="_blank" rel="noopener noreferrer">
                             Github
                         </a>
                         <a className=" col-span-12 btn btn-primary" href="https://www.linkedin.com/in/spencer-renfro-854b22174/" target="_blank" rel="noopener noreferrer">
                             LinkedIn
                         </a>
-                          {/* <button onClick={onButtonClick} className="btn btn-primary flex">Download Resume</button> */}
-                          <a className="col-span-12 btn btn-primary" href="https://docs.google.com/document/d/1vepN6ogWXxj5zuMN96skXjb8uTXHfdQLol_UHH86TDU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-                            Resume
-                          </a>
-                          {/* <input id="fileItem" type="file" placeholder='INSET FILE' /> */}
-                          {/* <input id="myfiles" multiple type="file" /> */}
-
+                          <a className="col-span-12 btn btn-primary"  href={PDF} target="_blank" rel="noopener noreferrer" >Resume</a>
                     </div>
 
                     <div>

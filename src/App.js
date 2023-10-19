@@ -76,7 +76,7 @@ function App() {
            </div>
 
 
-      <div className="px-4  md:pt-32">
+      <div className="px-4  md:pt-10">
         <div >
           <Routes>
             <Route path="/" element={<AboutMe darkModeSwitch={darkModeSwitch} />} />

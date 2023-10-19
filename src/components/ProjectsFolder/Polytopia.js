@@ -85,13 +85,9 @@ export default function Polytopia() {
   }
 
   return (
-    <div className=" py-5 px-10">
+    <div className=" py-5 lg:px-10">
       <div className="grid grid-cols-12">
-        <div
-          className="col-span-12
-                                lg:col-start-1 lg:col-end-7
-                                xl:col-start-4 xl:col-end-8"
-        >
+        <div className="col-span-12 lg:col-start-1 lg:col-end-7 xl:col-start-4 xl:col-end-8">
           <img
             style={windowWidth > 700 ? sizeOne : sizeTwo}
             src={polyImg}
@@ -124,9 +120,17 @@ export default function Polytopia() {
       </div>
 
       <div className=" pt-10 lg:ml-10 lg:px-20  card  shadow-xl  ">
-
-        <h2 className="mt-10 text-3xl font-bold">View Live Website:  <a className='text-cyan-700 underline' rel="noreferrer" href="http://mypolytopia.s3-website.us-east-2.amazonaws.com/" target="_blank">Polytopia</a></h2>
-
+        <h2 className="mt-10 text-3xl font-bold">
+          View Live Website:{" "}
+          <a
+            className="text-cyan-700 underline"
+            rel="noreferrer"
+            href="http://mypolytopia.s3-website.us-east-2.amazonaws.com/"
+            target="_blank"
+          >
+            Polytopia
+          </a>
+        </h2>
 
         <h2 className="mt-10 text-3xl font-bold">What it does</h2>
         <p className="mt-2 text-xl">
