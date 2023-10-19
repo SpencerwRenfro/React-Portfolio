@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.23256911.css",
-    "main.js": "/static/js/main.08beff16.js",
+    "main.css": "/static/css/main.c1e2ffa1.css",
+    "main.js": "/static/js/main.1d3033a2.js",
     "static/media/Emoji_Loved.gif": "/static/media/Emoji_Loved.9a0a3987a8a7b0ce900d.gif",
     "static/media/Emoji_Wow.gif": "/static/media/Emoji_Wow.caed3e3ed0d859a1b9ed.gif",
     "static/media/Emoji_Angry.gif": "/static/media/Emoji_Angry.ddcbc3169312d8352b18.gif",
@@ -9,15 +9,16 @@
     "static/media/Emoji_haha.gif": "/static/media/Emoji_haha.232cc715805905099d29.gif",
     "static/media/Emoji_Like.gif": "/static/media/Emoji_Like.50ea665d4cea0eca291f.gif",
     "static/media/facebookAvatar.jpg": "/static/media/facebookAvatar.d2ca73fb365dc12b463b.jpg",
+    "static/media/spencer-renfro-resume-2023.pdf": "/static/media/spencer-renfro-resume-2023.4006442d104a3ddb8ed2.pdf",
     "static/media/angry.png": "/static/media/angry.03db6800959234642842.png",
     "index.html": "/index.html",
     "static/media/fbDots.svg": "/static/media/fbDots.453cf49a0c76933e77c7c228978c86c1.svg",
     "static/media/fbClose.svg": "/static/media/fbClose.6157b2f9cef61f43cfb9afb27dae1ef8.svg",
-    "main.23256911.css.map": "/static/css/main.23256911.css.map",
-    "main.08beff16.js.map": "/static/js/main.08beff16.js.map"
+    "main.c1e2ffa1.css.map": "/static/css/main.c1e2ffa1.css.map",
+    "main.1d3033a2.js.map": "/static/js/main.1d3033a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.23256911.css",
-    "static/js/main.08beff16.js"
+    "static/css/main.c1e2ffa1.css",
+    "static/js/main.1d3033a2.js"
   ]
 }
